@@ -6,8 +6,9 @@
     <title>Work Experience</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles">
+    <script defer src="./assets/js/acordeon.js"></script>
   </head>
-  <body class="body_style">
+  <body class="body_style" id="body_section">
     <section>
     <div class="col-12">
         <h2 class="h2-style">
@@ -16,27 +17,24 @@
            class="bar_style"
           ></div>
         </h2>
-          <div class="container">
-            <ul class="list_style">
-                <li class="li_style spc_height">Julieth Muñoz
-                    <p class="description_styles">Relationship: Sister</p>
-                    <p class="description_styles">E-mail: julueth119_1@hotmail.com</p>
-                    <p class="description_styles">Cell: 312 5897612</p>
-                </li>
-                
-                <li class="li_style">Jose Muñoz
-                    <p class="description_styles">Relationship: Father</p>
-                    <p class="description_styles">E-mail: munozmassjosericardo@gmail.com</p>
-                    <p class="description_styles">Cell: 3017286005</p></li>
-                <li class="li_style">Susana Perez
-                    <p class="description_styles">Relationship: Grandmother</p>
-                    <p class="description_styles">E-mail: susanaperez@hotmail.com</p>
-                    <p class="description_styles">Cell: 312 5554724</p></li>
-                <li class="li_style">Johan Toro
-                    <p class="description_styles">Relationship: Cousin</p>
-                    <p class="description_styles">E-mail: jmtoro@yahoo.com</p>
-                    <p class="description_styles">Cell: 323 679037</p></li>
-            </ul> 
+            <div class="acordeon">
+              <div class="bloque activo">
+                <h2 class="h2">Julieth Muñoz Florez</h2>
+                <p class="contenido">Relationship: Sister <br>E-mail: julueth119_1@hotmail.com <br>Cell: 3017286005</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">Susana Perez de Florez</h2>
+                <p class="contenido">Relationship: Grandmother <br>E-mail: susanaperez@hotmail.com <br>Cell: 312 5554724</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">María Fernanda Zuluaga Castilla</h2>
+                <p class="contenido">Relationship: Wife <br>E-mail: mfzc323@gmail.com <br>Cell: 3234140958</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">José Ricardo Muñoz Mass</h2>
+                <p class="contenido">Relationship: Father <br>E-mail: munozmassjosericardo@gmail.com <br>Cell: 3017286005</p>
+              </div>
+            </div>
             
             <div class="btn_container_styles">
               <a

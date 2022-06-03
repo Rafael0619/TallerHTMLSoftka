@@ -12,8 +12,18 @@
     />
     <link rel="stylesheet" href="./assets/css/styles" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <script src="./assets/js/mode.js"></script>
   </head>
-  <body>
+  <body id="body_section" onload="main()">
+    <section>
+      <select class="select_styles" name="Mode" id="mode">
+        <option value="4">Original</option>
+        <option value="1">Blue Colour</option>
+        <option value="2">Red Colour</option>
+        <option value="3">purple Color</option>
+      </select>
+      <button class="acces_styles" onclick="ejecutar()">Select</button>
+    </section>
     <section>
       <div class="main_block">
         <div class="img_container">

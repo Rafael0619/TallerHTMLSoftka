@@ -6,7 +6,7 @@
     <title>Work Experience</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles">
-
+    <script defer src="./assets/js/acordeon.js"></script>
   </head>
   <body class="body_style">
     <section>
@@ -17,27 +17,24 @@
            class="bar_style"
           ></div>
         </h2>
-          <div class="container">
-            <ul class="list_style">
-                <li class="li_style spc_height" >Intituto Experimental del Atlaántico
-                    <p class="p_study_styles" >Title: Bachiller Academico</p>
-                    <p class="p_study_styles">Date: 2007-2012</p>
-                   
-                </li>
-                
-                <li class="li_style">Universidad Del Atlántico
-                    <p class="description_styles">Title: Chemical Engineer</p>
-                    <p class="description_styles">Date: 2015-2020</p>
-                    </li>
-                <li class="li_style">Academlo
-                    <p class="description_styles" >Title: Full-Stack developer</p>
-                    <p class="description_styles">Date: 2021-2022</p>
-                    </li>
-                <li class="li_style">Softka Training
-                    <p class="description_styles">Title: Java developer</p>
-                    <p class="description_styles">Date: 2022-currently</p>
-                    </li>
-            </ul>
+            <div class="acordeon">
+              <div class="bloque activo">
+                <h2 class="h2">Instituto Experimental del Atlántico</h2>
+                <p class="contenido">Title: Bachiller Academico <br> Date: 2007-2012</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">Universidad Del Atlántico</h2>
+                <p class="contenido">Title: Chemical Engineer <br>Date: 2015-2020</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">Academlo</h2>
+                <p class="contenido">Title: Full-Stack developer<br>Date: 2021-2022</p>
+              </div>
+              <div class="bloque">
+                <h2 class="h2">Softka Training</h2>
+                <p class="contenido">Title: Java developer <br>Date: 2022-currently</p>
+              </div>
+            </div>
             
             <div class="btn_container_styles">
               <a
@@ -62,7 +59,7 @@
                 class="btn_styles"
                 style="
                   position: absolute;
-                  top: 385px;
+                  top: 1040px !important;
                   right: 130px;
                 "
                 >Familiar References</a>

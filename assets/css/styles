@@ -197,7 +197,7 @@ p {
 .fifth_btn {
   margin-top: 15px;
   position: absolute;
-  top: 372px;
+  top: 1028px !important;
   right: 410px;
 }
 .sixth-btn {
@@ -214,13 +214,13 @@ p {
 .eigh_btn {
   margin-top: 15px;
   position: absolute;
-  top: 406px;
+  top: 102px;
   right: 410px;
 }
 .nin_btn {
   margin-top: 15px;
   position: absolute;
-  top: 367px;
+  top: 1027px !important;
   right: 410px;
 }
 .stu_btn_sl {
@@ -242,7 +242,7 @@ p {
   transition: 0.5s ease;
   padding: 0.8rem 5.8rem;
   position: absolute;
-  top: 387px;
+  top: 1043px !important;
   right: 130px;
 }
 .study_btn_style:hover {
@@ -277,4 +277,61 @@ p {
   width: 50%;
   position: relative;
   left: 160px;
+}
+.select_styles {
+  background-color: #343a40;
+  color: #20c997;
+  text-align: center;
+  border-radius: 5px;
+  width: 15%;
+  height: 30px;
+}
+.blue_color {
+  background-color: blue !important;
+}
+.red_color {
+  background-color: red !important;
+}
+.purple_color {
+  background-color: purple !important;
+}
+.acces_styles {
+  background-color: #20c997;
+  color: #343a40;
+  margin-left: 5px;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+.acordeon {
+  border: solid #20c997;
+  box-shadow: 2px 2px 5px #20c997;
+  border-radius: 10px;
+  width: 40%;
+  max-width: 120em;
+  padding: 2em;
+  margin: auto;
+}
+.acordeon .bloque {
+  margin: 0 0 1em;
+}
+.acordeon .h2 {
+  border: solid #999;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px #999;
+  margin: 0 0 1em;
+  padding: 1em;
+}
+.acordeon .contenido {
+  font-size: 20px;
+  height: 0;
+  padding: 0em;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.acordeon .bloque.activo .contenido {
+  height: 5em;
 }
