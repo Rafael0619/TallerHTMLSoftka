@@ -97,6 +97,37 @@ p {
   cursor: pointer;
   transition: 0.3s ease;
 }
+.studies_btn {
+  padding: 0.8rem 6rem;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  border: 1px solid #20c997;
+  color: #20c997;
+  border-width: 2px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: absolute;
+  top: 305px;
+  right: 130px;
+}
+.studies_btn:hover {
+  padding: 0.8rem 6rem;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  border: 1px solid #20c997;
+  background-color: #20c997;
+  color: #111418;
+  border-width: 2px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: absolute;
+  top: 305px;
+  right: 130px;
+}
 .bar_style {
   width: 80px;
   height: 3px;
@@ -130,4 +161,120 @@ p {
 .li_style {
   width: 50%;
   text-align: center;
+}
+.col-12 {
+  width: 100%;
+}
+.margin-h2 {
+  margin: 10%;
+}
+.container_style {
+  width: 50%;
+  position: absolute;
+  right: 20px;
+}
+.btn_container_styles {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.first_btn_style {
+  margin-left: 25px;
+  margin-top: 15px;
+  top: 200px;
+}
+.second_btn_style {
+  margin-top: 15px;
+  position: absolute;
+  top: 290px;
+  right: 410px;
+}
+.fourth_btn {
+  margin-left: 25px;
+  margin-top: 15px;
+  top: 200px;
+  width: 25%;
+}
+.fifth_btn {
+  margin-top: 15px;
+  position: absolute;
+  top: 372px;
+  right: 410px;
+}
+.sixth-btn {
+  margin-top: 15px;
+  width: 25%;
+  margin-left: 100px;
+}
+.sev_btn {
+  margin-left: 25px;
+  margin-top: 15px;
+  top: 200px;
+  width: 25%;
+}
+.eigh_btn {
+  margin-top: 15px;
+  position: absolute;
+  top: 406px;
+  right: 410px;
+}
+.nin_btn {
+  margin-top: 15px;
+  position: absolute;
+  top: 367px;
+  right: 410px;
+}
+.stu_btn_sl {
+  padding: 0.8rem 5.8rem;
+  position: absolute;
+  top: 420px;
+  right: 130px;
+}
+.study_btn_style {
+  padding: 0.8rem 2.8rem;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  border: 1px solid #20c997;
+  color: #20c997;
+  border-width: 2px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding: 0.8rem 5.8rem;
+  position: absolute;
+  top: 387px;
+  right: 130px;
+}
+.study_btn_style:hover {
+  padding: 0.8rem 2.8rem;
+  font-weight: 100;
+  transition: all 0.5s ease;
+  border: 1px solid #20c997;
+  background-color: #20c997;
+  color: #111418;
+  border-width: 2px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding: 0.8rem 5.8rem;
+  position: absolute;
+  top: 387px;
+  right: 130px;
+}
+.h2-style {
+  color: white;
+  text-align: center;
+  margin: 10%;
+  font-size: 3rem;
+}
+.spc_height {
+  height: 200;
+}
+.p_study_styles {
+  color: white;
+  font-size: 18px;
+  width: 50%;
+  position: relative;
+  left: 160px;
 }
